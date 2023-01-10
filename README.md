@@ -59,13 +59,13 @@ mamba activate mescore
 caimanmanager.py install
 ```
 
-> The `caimanmanager.py` step may cause issues, especially on Windows. Assuming your anaconda is in your user directory a workaround is to call it using the full path:
+    - The `caimanmanager.py` step may cause issues, especially on Windows. Assuming your anaconda is in your user directory a workaround is to call it using the full path:
 
 ```bash
 python C:\Users\your-username\anaconda3\envs\your-env-name\bin\caimanmanager.py install
 ```
 
-> If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
+    - If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
 
 6. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed (note to run ipython just enter `ipython` in your anaconda prompt):
 
