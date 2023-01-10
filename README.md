@@ -39,9 +39,9 @@ conda clean -a
 mamba create -n mescore -c conda-forge mesmerize-core
 ```
 
-`caiman` is a dependency of `mesmerize-core` so it will automatically grab `caiman` too
+ `caiman` is a dependency of `mesmerize-core` so it will automatically grab `caiman` too
 
-If you already have an environment with `caiman`:
+ If you already have an environment with `caiman`:
 
 ```bash
 mamba install -n name-of-env-with-caiman mesmerize-core
@@ -59,13 +59,13 @@ mamba activate mescore
 caimanmanager.py install
 ```
 
-The `caimanmanager.py` step may cause issues, especially on Windows. Assuming your anaconda is in your user directory a workaround is to call it using the full path:
+ The `caimanmanager.py` step may cause issues, especially on Windows. Assuming your anaconda is in your user directory a workaround is to call it using the full path:
 
 ```bash
 python C:\Users\your-username\anaconda3\envs\your-env-name\bin\caimanmanager.py install
 ```
 
-If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
+ If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
 
 6. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed (note to run ipython just enter `ipython` in your anaconda prompt):
 
@@ -83,7 +83,7 @@ print(mesmerize_core.__version__)  # should be 0.1.0, make sure it's not the 0.1
 pip install git+https://github.com/kushalkolar/fastplotlib.git
 ```
 
-If you don't have git installed you will need to install that first in the environment:
+ If you don't have git installed you will need to install that first in the environment:
 
 ```bash
 conda install git
@@ -94,14 +94,14 @@ conda install git
 9. Install Vulkan drivers for your GPU (this includes GPUs that are commonly integrated within CPUs).
     - Windows: Vulkan drivers should be installed by default so you shouldn't have to do anything, if you can run the first few cells of the `fastplotlib` `simple.ipynb` example you're good to go!
     - Mac uses Metal instead of Vulkan, which should also be installed by default so you don't have to do anything!
-    - Linxu: This is the one time where you need to do more work on Linux :D. See the [`fastplotlib` repo](https://github.com/kushalkolar/fastplotlib#linux) for instructions.
+    - Linux: This is the one time where you need to do more work on Linux :D. See the [`fastplotlib` repo](https://github.com/kushalkolar/fastplotlib#linux) for instructions.
 
 10. Finally we recommend trying to run the simplest demo notebook for each library:
     - `fastplotlib`: https://github.com/kushalkolar/fastplotlib/blob/master/examples/simple.ipynb
     - `caiman`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
     - `mesmerize-core`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
 
-You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
+ You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
 
 - fastplotlib: https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
 - caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
