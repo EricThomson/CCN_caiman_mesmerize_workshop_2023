@@ -67,7 +67,7 @@ python C:\Users\your-username\anaconda3\envs\your-env-name\bin\caimanmanager.py 
 
 If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
 
-6. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed:
+6. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed (note to run ipython just enter `ipython` in your anaconda prompt):
 
 ```python
 # run in ipython
