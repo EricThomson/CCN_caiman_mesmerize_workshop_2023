@@ -103,6 +103,6 @@ conda install git
 
 You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
 
-    - fastplotlib: https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
-    - caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
-    - mesmerize-core: https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
+- fastplotlib: https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
+- caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
+- mesmerize-core: https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
