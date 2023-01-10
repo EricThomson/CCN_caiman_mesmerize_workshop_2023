@@ -16,7 +16,7 @@ This workshop will cover the following topics:
 
 # Installation instructions
 
-These are end-user instructions. If you are interested in development see the devmode instructions on the respective repositories.
+These are end-user instructions, they might look daunting but we have tried to describe each step in detail. If you are interested in development see the devmode instructions on the respective repositories.
 
 We recommend installing the `mesmerize-core` conda package which gives you everything that you need, including `caiman`. `fastplotlib` is installed separately but that is relatively trivial. [**If you haven't already done so please acquaint yourself with virtual environments**](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
 
@@ -71,7 +71,7 @@ If you continue to have issues with this step, please post an issue on the caima
 
 5. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed:
 
-```bash
+```python
 # run in ipython
 import caiman
 import mesmerize_core
@@ -97,3 +97,13 @@ conda install git
     - Windows: Vulkan drivers should be installed by default so you shouldn't have to do anything, if you can run the first few cells of the `fastplotlib` `simple.ipynb` example you're good to go!
     - Mac uses Metal instead of Vulkan, which should also be installed by default so you don't have to do anything!
     - Linxu: This is the one time where you need to do more work on Linux :D . See the [`fastplotlib` repo](https://github.com/kushalkolar/fastplotlib#linux) for instructions.
+
+9. Finally we recommend trying to run the simplest demo notebook for each library:
+    - `fastplotlib`: https://github.com/kushalkolar/fastplotlib/blob/master/examples/simple.ipynb
+    - `caiman`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
+    - `mesmerize-core`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
+
+You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
+https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
+https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
+https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
