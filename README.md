@@ -1,6 +1,6 @@
 # CCN January 2023 Workshop
 
-Materials for the workshop on CaImAn and Mesmerize for Calcium & Voltage Imaging.
+Materials for the workshop on CaImAn and Mesmerize for Calcium & Voltage Imaging. This repo currently only includes installation instructions but we will fill it in with more materials as the workshop approaches.
 
 This workshop will cover the following topics:
 
@@ -32,6 +32,8 @@ conda install -c conda-forge mamba
 # if conda is behaving slow, this command can sometimes help
 conda clean -a
 ```
+
+**Important note: Sometimes conda or mamba will get stuck at a step, such as creating an environment or installing a package. Pressing `Enter` on your keyboard can sometimes help it continue when it pauses.**
 
 2. To create a new environment and install `mesmerize-core` into it do this:
 
@@ -89,4 +91,9 @@ If you don't have git installed you will need to install that first in the envir
 conda install git
 ```
 
+7. If you have C compilers installed on your system we recommend installing `simplejpeg`. This is usually easier on Linux & Mac than on Windows. If you cannot install `simplejpeg` don't worry, it will just make `fastplotlib` slightly less fast.
 
+8. Install Vulkan drivers for your GPU (this includes GPUs that are commonly integrated within CPUs).
+    - Windows: Vulkan drivers should be installed by default so you shouldn't have to do anything, if you can run the first few cells of the `fastplotlib` `simple.ipynb` example you're good to go!
+    - Mac uses Metal instead of Vulkan, which should also be installed by default so you don't have to do anything!
+    - Linxu: This is the one time where you need to do more work on Linux :D . See the [`fastplotlib` repo](https://github.com/kushalkolar/fastplotlib#linux) for instructions.
