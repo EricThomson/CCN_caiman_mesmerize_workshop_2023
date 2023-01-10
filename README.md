@@ -31,7 +31,7 @@ conda install -c conda-forge mamba
 conda clean -a
 ```
 
-**Important note: Sometimes conda or mamba will get stuck at a step, such as creating an environment or installing a package. Pressing `Enter` on your keyboard can sometimes help it continue when it pauses.**
+> **Important note:** In general, sometimes conda or mamba will get stuck at a step, such as creating an environment or installing a package. Pressing `Enter` on your keyboard can sometimes help it continue when it hangs like this.
 
 3. To create a new environment and install `mesmerize-core` into it do this:
 
