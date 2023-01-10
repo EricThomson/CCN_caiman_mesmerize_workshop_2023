@@ -16,9 +16,13 @@ This workshop will cover the following topics:
 
 # Installation instructions
 
-These are end-user instructions, they might look daunting but we have tried to describe each step in detail. If you are interested in development see the devmode instructions on the respective repositories.
+These are end-user instructions, they might look daunting but we have tried to describe each step in detail. Please post an issue on the appropriate repo or send a message on Slack. If you are interested in development see the devmode instructions on the respective repositories.
 
-We recommend installing the `mesmerize-core` conda package which gives you everything that you need, including `caiman`. `fastplotlib` is installed separately but that is relatively trivial. [**If you haven't already done so please acquaint yourself with virtual environments**](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
+We recommend installing the `mesmerize-core` conda package which gives you everything that you need, including `caiman`. `fastplotlib` is installed separately but that is relatively trivial.
+
+[**Note: If you haven't already done so please acquaint yourself with virtual environments**](https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/)
+
+**Note: The workshop will use the new `mesmerize-core` package, and not the old Mesmerize desktop application which is now legacy software. `mesmerize-core` is not backwards compatible so you will need to install `mesmerize-core`**
 
 1. Install Anaconda if you already don't have it. You can find official instructions on the Anaconda website. A few important notes:
     - On Windows and Mac if you use the graphical installer make sure you choose to install *"Just Me"* and not a system install.
@@ -67,7 +71,7 @@ The `caimanmanager.py` step may cause issues, especially on Windows. Assuming yo
 python C:\Users\your-username\anaconda3\envs\your-env-name\bin\caimanmanager.py install
 ```
 
-If you continue to have issues with this step, please post an issue on the caiman github or gitterpip install git+https://github.com/kushalkolar/fastplotlib.git: https://github.com/flatironinstitute/CaImAn/issues 
+If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
 
 5. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed:
 
