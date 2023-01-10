@@ -94,7 +94,7 @@ conda install git
 9. Install Vulkan drivers for your GPU (this includes GPUs that are commonly integrated within CPUs).
     - Windows: Vulkan drivers should be installed by default so you shouldn't have to do anything, if you can run the first few cells of the `fastplotlib` `simple.ipynb` example you're good to go!
     - Mac uses Metal instead of Vulkan, which should also be installed by default so you don't have to do anything!
-    - Linxu: This is the one time where you need to do more work on Linux :D . See the [`fastplotlib` repo](https://github.com/kushalkolar/fastplotlib#linux) for instructions.
+    - Linxu: This is the one time where you need to do more work on Linux :D. See the [`fastplotlib` repo](https://github.com/kushalkolar/fastplotlib#linux) for instructions.
 
 10. Finally we recommend trying to run the simplest demo notebook for each library:
     - `fastplotlib`: https://github.com/kushalkolar/fastplotlib/blob/master/examples/simple.ipynb
