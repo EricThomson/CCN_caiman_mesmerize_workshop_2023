@@ -102,6 +102,7 @@ conda install git
     - `mesmerize-core`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
 
 You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
+
     - https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
     - https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
     - https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
