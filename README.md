@@ -59,13 +59,13 @@ mamba activate mescore
 caimanmanager.py install
 ```
 
- The `caimanmanager.py` step may cause issues, especially on Windows. Assuming your anaconda is in your user directory a workaround is to call it using the full path:
+> The `caimanmanager.py` step may cause issues, especially on Windows. Assuming your anaconda is in your user directory a workaround is to call it using the full path:
 
 ```bash
 python C:\Users\your-username\anaconda3\envs\your-env-name\bin\caimanmanager.py install
 ```
 
- If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
+> If you continue to have issues with this step, please post an issue on the [`CaImAn` github](https://github.com/flatironinstitute/CaImAn) or post in the `#caiman` channel on slack.
 
 6. Run `ipython` and verify that `caiman` and `mesmerize_core` are installed (note to run ipython just enter `ipython` in your anaconda prompt):
 
@@ -89,7 +89,7 @@ pip install git+https://github.com/kushalkolar/fastplotlib.git
 conda install git
 ```
 
-8. If you have C compilers installed on your system we recommend installing `simplejpeg`. This is usually easier on Linux & Mac than on Windows. If you cannot install `simplejpeg` don't worry, it will just make `fastplotlib` slightly less fast.
+8. If you have C compilers installed on your system we recommend `pip install simplejpeg`. This is usually easier on Linux & Mac than on Windows. If you cannot install `simplejpeg` don't worry, it will just make `fastplotlib` slightly less fast.
 
 9. Install Vulkan drivers for your GPU (this includes GPUs that are commonly integrated within CPUs).
     - Windows: Vulkan drivers should be installed by default so you shouldn't have to do anything, if you can run the first few cells of the `fastplotlib` `simple.ipynb` example you're good to go!
@@ -101,8 +101,8 @@ conda install git
     - `caiman`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
     - `mesmerize-core`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
 
- You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
+     You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
 
-- fastplotlib: https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
-- caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
-- mesmerize-core: https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
+      - fastplotlib: https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
+      - caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
+      - mesmerize-core: https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
