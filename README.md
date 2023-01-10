@@ -19,7 +19,7 @@ This workshop will cover the following topics:
 We recommend installing the `mesmerize-core` conda package which gives you everything that you need, including `caiman`. `fastplotlib` is installed separately but that is relatively trivial.
 
 1. Install Anaconda if you already don't have it. You can find official instructions on the Anaconda website. A few important notes:
-    - On Windows and Mac if you use the graphical installer make sure you choose to install *"Just Me"* and not a system install.
+    - On Windows and Mac if you use the graphical installer make sure you choose to install **"Just Me"** and not a system install.
     - On Linux you can probably accept the default `PREFIX` to install to your user home directory, do not perform a system install.
   
 2. Install `mamba` into your base environment. Skip this step if you have `mamba`. This step may take 10 minutes and display several messages like "Solving environment: failed with..." but it should eventually install `mamba`.
