@@ -109,5 +109,5 @@ conda install git
       - caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
       - mesmerize-core: https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
       
-11. Updating mesmerize-core and fastplotlib
+11. Updating mesmerize-core and fastplotlib    
   Note when new releases are available for mesmerize-core, run the following from within your virtual environment to update: `mamba update -c conda-forge mesmerize-core`. To update fastplotlib, use the following command (from within your activate virtual environment): `pip install git+https://github.com/kushalkolar/fastplotlib.git --upgrade` 
