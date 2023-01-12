@@ -16,6 +16,8 @@ This workshop will cover the following topics:
 
 # Installation instructions
 
+**If you do not have `mesmerize-core` v0.1.0 or `caiman` >= 1.9.10 see the 
+
 We recommend installing the `mesmerize-core` conda package which gives you everything that you need, including `caiman`. `fastplotlib` is installed separately but that is relatively trivial.
 
 1. Install Anaconda if you already don't have it. [Click here for official instructions on the Anaconda website](https://docs.anaconda.com/anaconda/install/index.html). A few important notes:
@@ -108,6 +110,7 @@ conda install git
       - fastplotlib: https://github.com/kushalkolar/fastplotlib/archive/refs/heads/master.zip
       - caiman: https://github.com/flatironinstitute/CaImAn/archive/refs/heads/master.zip
       - mesmerize-core: https://github.com/nel-lab/mesmerize-core/archive/refs/heads/master.zip
-      
-11. Updating mesmerize-core and fastplotlib    
-  Note when new releases are available for mesmerize-core, run the following from within your virtual environment to update: `mamba update -c conda-forge mesmerize-core`. To update fastplotlib, use the following command (from within your activate virtual environment): `pip install git+https://github.com/kushalkolar/fastplotlib.git --upgrade` 
+
+# Update instructions
+
+Note when new releases are available for mesmerize-core, run the following from within your virtual environment to update: `mamba update -c conda-forge mesmerize-core`. To update fastplotlib, use the following command (from within your activate virtual environment): `pip install git+https://github.com/kushalkolar/fastplotlib.git --upgrade` 
