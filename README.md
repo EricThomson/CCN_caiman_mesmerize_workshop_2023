@@ -105,7 +105,7 @@ conda install git
 10. Finally we recommend trying to run the simplest demo notebook for each library:
     - `fastplotlib`: https://github.com/kushalkolar/fastplotlib/blob/master/examples/simple.ipynb
     - `caiman`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
-    - `mesmerize-core`: https://github.com/flatironinstitute/CaImAn/blob/master/demos/notebooks/demo_pipeline.ipynb
+    - `mesmerize-core`: https://github.com/nel-lab/mesmerize-core/blob/master/notebooks/mcorr_cnmf.ipynb
 
      You can either clone each repo to try out the demo notebooks or download the repo as a zip file:
 
