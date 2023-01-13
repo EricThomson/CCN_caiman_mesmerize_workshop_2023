@@ -84,7 +84,7 @@ print(mesmerize_core.__version__)  # should be 0.1.0, make sure it's not the 0.1
 7. Install `fastplotlib` for visualization into the same environment (run this in the anaconda prompt, not ipython)
 
 ```bash
-pip install git+https://github.com/kushalkolar/fastplotlib.git
+pip install fastplotlib
 ```
 
  If you don't have git installed you will need to install that first in the environment:
@@ -113,4 +113,4 @@ conda install git
 
 # Update instructions
 
-Note when new releases are available for mesmerize-core, run the following from within your virtual environment to update: `mamba update -c conda-forge mesmerize-core`. To update fastplotlib, use the following command (from within your activate virtual environment): `pip install git+https://github.com/kushalkolar/fastplotlib.git --upgrade` 
+Note when new releases are available for mesmerize-core, run the following from within your virtual environment to update: `mamba update -c conda-forge mesmerize-core`. To update fastplotlib, use the following command (from within your activate virtual environment): `pip install --upgrade fastplotlib` 
