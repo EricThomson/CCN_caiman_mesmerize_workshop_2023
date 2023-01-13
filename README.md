@@ -87,7 +87,7 @@ print(mesmerize_core.__version__)  # should be 0.1.0, make sure it's not the 0.1
 pip install fastplotlib
 ```
 
-(The previous instructions said to install it directly from github but we were able to make a pip-installable release since `pygfx` recently updated their release, and `pygfx` the main dependency for `fastplotlib`)
+(The previous instructions said to install it directly from github but we were able to make a pip-installable release since `pygfx` recently updated their release, and `pygfx` is the main dependency for `fastplotlib`)
 
  If you don't have git installed you will need to install that first in the environment:
 
