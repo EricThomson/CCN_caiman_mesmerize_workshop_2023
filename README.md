@@ -16,7 +16,7 @@ This workshop will cover the following topics:
 
 # Installation instructions
 
-**If you are working with previous versions (i.e., you do not have `mesmerize-core` v0.1.0 or `caiman` >= 1.9.10), please see the [Update instructions](https://github.com/EricThomson/CCN_caiman_mesmerize_workshop_2023#update-instructions) below.**
+**If you are starting from scratch, start here. If you just need to update, then see the [Update instructions](https://github.com/EricThomson/CCN_caiman_mesmerize_workshop_2023#update-instructions) below.**
 
 We recommend installing the `mesmerize-core` conda package which gives you everything that you need, including `caiman`. `fastplotlib` is installed separately but that is relatively trivial.
 
