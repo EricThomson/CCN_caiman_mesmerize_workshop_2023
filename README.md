@@ -14,26 +14,6 @@ This workshop will cover the following topics:
 4. [`mesmerize-core`](https://github.com/nel-lab/mesmerize-core) for parameter optimization and data organization with CaImAn.
 5. Postprocessing
 
-# Demos
-
-Fork and clone this repo to follow along with the demos.
-
-1. Fork this repo to your GitHub:
-
-![image](https://user-images.githubusercontent.com/9403332/215364128-7b5575a0-d72e-4b03-9c4a-3051b4ea5930.png)
-
-2. Clone the fork to your local:
-
-Run this in your terminal, anaconda promp or mambaforge prompt:
-
-![image](https://user-images.githubusercontent.com/9403332/215364183-efa6748c-b0b1-4e6e-bfaf-e5ae477a56a7.png)
-
-3. To run the demos launch `jupyter lab` from within your environment. 
-
-4. Download the demo movie from the following link and place it within your `caiman_data/example_movies` dir.
-
-https://caiman.flatironinstitute.org/~neuro/caiman_downloadables/Sue_2x_3000_40_-46.tif
-
 # Installation instructions
 
 **If you are starting from scratch, start here. If you just need to update, then see the [Update instructions](https://github.com/EricThomson/CCN_caiman_mesmerize_workshop_2023#update-instructions) below.**
@@ -136,3 +116,23 @@ conda install git
 # Update instructions
 
 Note when new releases are available for mesmerize-core, run the following from within your virtual environment to update: `mamba update -c conda-forge mesmerize-core`. To update fastplotlib, use the following command (from within your activate virtual environment): `pip install --upgrade fastplotlib` 
+
+# Demos
+
+Fork and clone this repo to follow along with the demos.
+
+1. Fork this repo to your GitHub:
+
+![image](https://user-images.githubusercontent.com/9403332/215364128-7b5575a0-d72e-4b03-9c4a-3051b4ea5930.png)
+
+2. Clone the fork to your local:
+
+Run this in your terminal, anaconda promp or mambaforge prompt:
+
+![image](https://user-images.githubusercontent.com/9403332/215364183-efa6748c-b0b1-4e6e-bfaf-e5ae477a56a7.png)
+
+3. To run the demos launch `jupyter lab` from within your environment. 
+
+4. Download the demo movie from the following link and place it within your `caiman_data/example_movies` dir.
+
+https://caiman.flatironinstitute.org/~neuro/caiman_downloadables/Sue_2x_3000_40_-46.tif
